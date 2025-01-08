@@ -1,0 +1,13 @@
+{
+    "nombre": "Pablo Gabriel Granados Ruz",
+    "profesion": "Estudiante",
+    "bio": "Soy un estudiante del instituto IES Hermenegildo Lanz",
+    "Experiencia":[
+        {
+            "nombre": "nombre",
+            "descripcion": "descripcion",
+            "fecha": "fecha"
+        }
+    ],
+    "habilidades":["habilidades"]
+}
