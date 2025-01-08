@@ -1,13 +1,13 @@
 {
     "nombre": "Pablo Gabriel Granados Ruz",
-    "profesion": "Estudiante",
+    "profesion": "Estudiante de CGFS DAW",
     "bio": "Soy un estudiante del instituto IES Hermenegildo Lanz",
     "Experiencia":[
         {
-            "nombre": "nombre",
-            "descripcion": "descripcion",
-            "fecha": "fecha"
+            "nombre": "Trabajo panadero",
+            "descripcion": "Estube trabajando en una empresa de Antequera",
+            "fecha": "2023"
         }
     ],
-    "habilidades":["habilidades"]
+    "habilidades":["Nivel medio de programacion"]
 }
