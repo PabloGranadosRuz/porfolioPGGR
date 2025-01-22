@@ -1,0 +1,42 @@
+---
+import Instagram from '../components/icons/instagram.astro'
+import Github from './icons/github.astro'
+import Linkedin from './icons/linkedin.astro'
+---
+<footer>
+    <nav>
+        <ul>
+            <li><a href="https://www.instagram.com/"><Instagram/></a></li>
+            <li><a href="https://github.com/PabloGranadosRuz"><Github/></a></li>
+            <li><a href="https://es.linkedin.com/"><Linkedin/></a></li>
+        </ul>
+    </nav>
+</footer>
+<style>
+    footer {
+      width: 100%;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    
+    ul {
+      width: fit-content;
+      padding: 16px;
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      align-items: center;
+      color: white;
+    }
+    li{
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+  </style>
