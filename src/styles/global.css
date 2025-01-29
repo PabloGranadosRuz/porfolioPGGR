@@ -11,6 +11,10 @@ html {
   section#habilidades {
     margin-bottom: 25px;
   }
+  h1.nombre {
+    text-align: center;
+    }
+
   .titulo {
     display: flex;
     flex-direction: column;
@@ -48,12 +52,23 @@ html {
     line-height: 150%;
     text-align: center;
   }
-  .enlace-proyecto{
-    text-decoration: none;
+  .hover{
+      color: black;
+      padding: 12px;
+      border-radius: 20px;
+  }
+  .hover:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
     color: black;
   }
-  .enlace-proyecto:hover{
-    color: rgb(82, 82, 82);
+  .enlace{
+    
+    text-decoration: none;
+  
+  }
+  section#experiencia {
+    margin-top: 42px;
   }
   .experiencia {
     padding: 16px;
@@ -61,15 +76,7 @@ html {
     border-radius: 16px;
     margin-bottom: 16px;
   }
-  .proyecto {
-    padding: 16px;
-    background-color: rgb(236, 236, 236);
-    border-radius: 16px;
-    margin-bottom: 16px;
-  }
-  .proyecto:hover {
-    background-color: rgb(206, 206, 206);
-  }
+
   
   .exp-nombre {
     font-size: 20px;

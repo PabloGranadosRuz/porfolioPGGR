@@ -20,11 +20,11 @@ console.log(projects)
 		<p class="profesion">{meData.profesion}</p>
 		<p class="bio">{meData.bio}</p>
 	</section>
-	<section class="proyecto" id="proyecto">
+	<section id="proyecto">
 		<h2>Proyectos</h2>
 		{projects.map((project) => (
-			<a class="enlace-proyecto" href={project.url}>
-				<article class="proyecto">
+			<a class="enlace" href={project.url}>
+				<article class="hover">
 					<h3>{project.frontmatter.title}</h3>
 					<p>{project.frontmatter.description}</p>
 				</article>
